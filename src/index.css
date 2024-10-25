@@ -1,0 +1,93 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400..800&display=swap');
+
+body {
+    background-color: #C98A40;
+    font-optical-sizing: auto;
+    font-family: "Sen", sans-serif;
+
+}
+
+
+.myContainer {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.howWeWork::after {
+    content: "Telephone:   +7 700 000 00 00";
+    position: absolute;
+    background-color: #C98A40;
+    top: -100px;
+    right: -50px;
+    width: 250px;
+    height: 250px;
+    display: flex;
+    align-items: end;
+    color: white;
+    padding: 10px ;
+}
+
+
+.testymonials {
+background-image: url('./assets//images//testy.png');
+background-position: center;
+background-size: 100% 100%;
+background-size: cover;
+}
+
+@media only screen and (max-width: 899px) {
+    .howWeWork::after {
+      width: 100px;
+      height: 100px;
+      top: -20px;
+      right: -20px;
+    }
+  }
+@media only screen and (min-width: 900px) and (max-width: 1250px) {
+    .howWeWork::after {
+      width: 200px;
+      height: 150px;
+      top: -20px;
+      right: -20px;
+    }
+  }
+
+  html , body {
+    scroll-behavior: smooth;
+  }
+
+  .loader {
+    width: 8px;
+    height: 48px;
+    display: inline-block;
+    position: relative;
+    border-radius: 4px;
+    box-sizing: border-box;
+    animation: animloader 1s linear infinite alternate;
+  }
+  
+  @keyframes animloader {
+    0% {
+      box-shadow: 20px 0 rgba(255, 255, 255, 0), 40px 0 rgba(255, 255, 255, 0), 60px 0 rgba(255, 255, 255, 0), 80px 0 rgba(255, 255, 255, 0), 100px 0 rgba(255, 255, 255, 0);
+    }
+    20% {
+      box-shadow: 20px 0 white, 40px 0 rgba(255, 255, 255, 0), 60px 0 rgba(255, 255, 255, 0), 80px 0 rgba(255, 255, 255, 0), 100px 0 rgba(255, 255, 255, 0);
+    }
+    40% {
+      box-shadow: 20px 0 white, 40px 0 white, 60px 0 rgba(255, 255, 255, 0), 80px 0 rgba(255, 255, 255, 0), 100px 0 rgba(255, 255, 255, 0);
+    }
+    60% {
+      box-shadow: 20px 0 white, 40px 0 white, 60px 0 white, 80px 0 rgba(255, 255, 255, 0), 100px 0 rgba(255, 255, 255, 0);
+    }
+    80% {
+      box-shadow: 20px 0 white, 40px 0 white, 60px 0 white, 80px 0 white, 100px 0 rgba(255, 255, 255, 0);
+    }
+    100% {
+      box-shadow: 20px 0 white, 40px 0 white, 60px 0 white, 80px 0 white, 100px 0 white;
+    }
+  }
+      
