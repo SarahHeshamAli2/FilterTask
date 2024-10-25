@@ -18,7 +18,7 @@ return <>
     </div>
     <p className='absolute lg:w-1/2 text-sm top-[40%]  text-[#C98A40] lg:top-1/2 end-5 font-bold  '>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the</p>
 
-    <div className="floatedImgs absolute w-1/3 mt-5 flex lg:top-3/4 -bottom-5 start-4 lg:start-1/2 rounded-lg gap-5">
+    <div className="floatedImgs absolute w-1/3 mt-5 flex lg:top-3/4 -bottom-5 start-0 lg:start-1/2 rounded-lg gap-5">
     <img src={bakery1} alt="bakery" className='w-full rounded-lg' />
     <img src={bakery2} alt="bakery" className='w-full rounded-lg ' />
     <img src={bakery3} alt="bakery" className='w-full rounded-lg' />
