@@ -13,7 +13,7 @@ return <>
       </div>
 
     </div>
-    <div className="rightPart bg-white relative lg:w-[40%]   w-3/4 ">
+    <div className="rightPart bg-white relative lg:w-[40%]   rounded-xl md:rounded-none md:w-3/4 ">
         <img src={chef} alt="chef" className=' rounded-md md:absolute  w-full md:top-10 top-[150px] md:start-[-50px] -start-7 ' />
     </div>
 </section>
